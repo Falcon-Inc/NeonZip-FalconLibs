@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# NeonZip-FalconLibs :
+This is a open Source Library Project That cam be used in Your Android Apps
 
-You can use the [editor on GitHub](https://github.com/Falcon-Inc/NeonZip-FalconLibs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This Library will Help You To Zip a Folder or Files and also it can Unzip a Zip File In A Seconds.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Supported In:
+```
+1) Android Studio
+2) Kepler Studio
+3) Aide
+4) Sketchware
+```
+# Files :
 
-### Markdown
+All Ide Jar and Dex Available in different Folders To download this Library Easily.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Warning: Please Add These Import in Your Project Activity :
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+com.Falcon.Neon.Zip.UnZipFile
+com.Falcon.Neon.Zip.ZipFile
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Available Codes to Use :
 
-### Jekyll Themes
+# For UnZipping A Zip:
+```
+UnZipFile unzip = new UnZipFile(MainActivity.this);
+		
+		           unzip.setZipPath("");
+		           unzip.setZipOutput("");
+				        unzip.UnZipFile();
+```
+# For Zipping A File or Folder :
+```
+ZipFile zip = new ZipFile(MainActivity.this);
+		           zip.setFolderPath("");
+		           zip.setOutputPath("");
+		               zip.ZipFile();
+```                   
+                   
+# *Library By Falcon.inc*
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Falcon-Inc/NeonZip-FalconLibs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
